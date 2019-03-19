@@ -30,7 +30,7 @@ public class TestExecutor {
 				System.out.println(action+"--"+idMethod+"--"+locatorVal+"--"+data);
 				WebElement element=null;
 				
-			//GET ELEMENT//
+			//GET ELEMENTs//
 			if(idMethod.equals("name")){
 				element = driver.findElement(By.name(locatorVal));
 			}
