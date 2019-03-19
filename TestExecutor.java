@@ -47,7 +47,7 @@ public class TestExecutor {
 				element = driver.findElement(By.linkText(locatorVal));
 			}
 			
-			//perform action			
+			//perform actions			
 			if(action.equals("sendkeys")){
 				element.sendKeys(data);
 			}
